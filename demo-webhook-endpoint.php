@@ -2,7 +2,7 @@
 
 	require_once dirname(__FILE__).'/SealApiClient.php';
 	
-	$SealApiClient = new SealApiClient('YOUR_SEAL_TOKEN', 'YOUR_SEAL_SECRET');
+	$SealApiClient = new SealApiClient(seal_token_d0ekquazta3lcog9txm6ndnbwz5so2qm93f63hd5, seal_secret_1cat02p2xpz9m3pkin7nlziibnt7nnxyhau2zips);
 	
 	$webhookContent = '';
 	$webhook = fopen('php://input' , 'rb');
